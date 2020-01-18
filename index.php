@@ -24,7 +24,7 @@
 							</div>
 							<div class="d-none d-sm-none d-md-block col-md-6 col-lg-6">
 								<div class="button_navigation call_to_action">
-									<a href="tel:+18556634772"><strong>(855) 663-4772</strong></a>
+									<a href="tel:+18335030491"><strong>(833) 503-0491</strong></a>
 								</div>
 							</div>
 						</div>
@@ -47,7 +47,7 @@
 												<img src="img/guarantee-badge.png" alt="">
 											</div>
 											<div class="call_to_action">
-												<a href="tel:+18556634772"><strong>(855) 663-4772</strong></a>
+												<a href="tel:+18335030491"><strong>(833) 503-0491</strong></a>
 												<h3>Trusted Local Business</h3>
 											</div>
 										</div>
@@ -258,7 +258,7 @@
 						<div class="col-12">
 							<div class="calltoactionsection">
 								<div class="button_navigation call_to_action">
-									<a href="tel:+18556634772"><strong>(855) 663-4772</strong></a>
+									<a href="tel:+18335030491"><strong>(833) 503-0491</strong></a>
 									<p><strong>Trusted Local Business</strong></p>
 								</div>
 							</div>
@@ -332,7 +332,7 @@
 								<div class="section4_calltoaction">
 									<h1> <?php echo (isset($_GET['city']) && strlen(trim($_GET['city'])) > 0 && strlen(trim($_GET['city'])) < 500) ? $_GET['city'] : 'Local';?> Pest Control Service</h1>
 									<div class="button_navigation call_to_action">
-										<a href="tel:+18556634772"><strong>(855) 663-4772</strong></a>
+										<a href="tel:+18335030491"><strong>(833) 503-0491</strong></a>
 										<p><strong>Trusted Local Business</strong></p>
 									</div>
 								</div>
@@ -368,7 +368,7 @@
 					<div class="row">
 						<div class="col-12 col-lg-8">
 							<div class="footer_logo">
-								<a href="tel:+18556634772"><?php echo (isset($_GET['city']) && strlen(trim($_GET['city'])) > 0 && strlen(trim($_GET['city'])) < 500) ? $_GET['city'] : 'City';?> <span>Pest Control</span></a>
+								<a href="tel:+18335030491"><?php echo (isset($_GET['city']) && strlen(trim($_GET['city'])) > 0 && strlen(trim($_GET['city'])) < 500) ? $_GET['city'] : 'City';?> <span>Pest Control</span></a>
 								<div class="d-none d-sm-none d-md-block d-lg-block">
 									<p>© 2019 <?php echo (isset($_GET['city']) && strlen(trim($_GET['city'])) > 0 && strlen(trim($_GET['city'])) < 500) ? $_GET['city'] : 'City';?> Pest Control - All rights reserved. <span><button id="myBtn">Terms &amp; Condition</button></span> | <span><button id="myBtn_two">Privacy Policy</button></span></p>
 								</div>	
@@ -382,7 +382,7 @@
 							<div class="footer_calltoaction">
 								<div class="button_navigation call_to_action">
 									<p class="para1">Call for your Free Quote</p>
-									<a href="tel:+18556634772"><strong>(855) 663-4772</strong></a>
+									<a href="tel:+18335030491"><strong>(833) 503-0491</strong></a>
 									<p class="para2"><strong>Trusted Local Business</strong></p>
 									<div class="d-block d-sm-block d-md-none d-lg-none mobile_copyright">
 										<p>© 2019 <?php echo (isset($_GET['city']) && strlen(trim($_GET['city'])) > 0 && strlen(trim($_GET['city'])) < 500) ? $_GET['city'] : 'City';?> Pest Control - All rights reserved.</p>
@@ -400,7 +400,7 @@
 					<div class="row">
 						<div class="col-12">
 							<div class="calltoactionmobilebutton">
-								<a href="tel:+18556634772">Tap To Call: (855) 663-4772</a>
+								<a href="tel:+18335030491">Tap To Call: (833) 503-0491</a>
 							</div>
 						</div>
 					</div>
