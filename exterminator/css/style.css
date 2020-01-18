@@ -1,0 +1,199 @@
+
+.owl-carousel,.owl-carousel .owl-item{-webkit-tap-highlight-color:transparent;position:relative;touch-action: manipulation!important;}.owl-carousel{display:none;width:100%;z-index:1}.owl-carousel .owl-stage{position:relative;touch-action:manipulation;-moz-backface-visibility:hidden}.owl-carousel .owl-stage:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}.owl-carousel .owl-stage-outer{position:relative;overflow:hidden;-webkit-transform:translate3d(0,0,0)}.owl-carousel .owl-item,.owl-carousel .owl-wrapper{-webkit-backface-visibility:hidden;-moz-backface-visibility:hidden;-ms-backface-visibility:hidden;-webkit-transform:translate3d(0,0,0);-moz-transform:translate3d(0,0,0);-ms-transform:translate3d(0,0,0)}.owl-carousel .owl-item{min-height:1px;float:left;-webkit-backface-visibility:hidden;-webkit-touch-callout:none}.owl-carousel .owl-item img{display:block;width:100%}.owl-carousel .owl-dots.disabled,.owl-carousel .owl-nav.disabled{display:none}.no-js .owl-carousel,.owl-carousel.owl-loaded{display:block}.owl-carousel .owl-dot,.owl-carousel .owl-nav .owl-next,.owl-carousel .owl-nav .owl-prev{cursor:pointer;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel .owl-nav button.owl-next,.owl-carousel .owl-nav button.owl-prev,.owl-carousel button.owl-dot{background:0 0;color:inherit;border:none;padding:0!important;font:inherit}.owl-carousel.owl-loading{opacity:0;display:block}.owl-carousel.owl-hidden{opacity:0}.owl-carousel.owl-refresh .owl-item{visibility:hidden}.owl-carousel.owl-drag .owl-item{touch-action:manipulation;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.owl-carousel.owl-grab{cursor:move;cursor:grab}.owl-carousel.owl-rtl{direction:rtl}.owl-carousel.owl-rtl .owl-item{float:right}.owl-carousel .animated{animation-duration:1s;animation-fill-mode:both}.owl-carousel .owl-animated-in{z-index:0}.owl-carousel .owl-animated-out{z-index:1}.owl-carousel .fadeOut{animation-name:fadeOut}@keyframes fadeOut{0%{opacity:1}100%{opacity:0}}.owl-height{transition:height .5s ease-in-out}.owl-carousel .owl-item .owl-lazy{opacity:0;transition:opacity .4s ease}.owl-carousel .owl-item .owl-lazy:not([src]),.owl-carousel .owl-item .owl-lazy[src^=""]{max-height:0}.owl-carousel .owl-item img.owl-lazy{transform-style:preserve-3d}.owl-carousel .owl-video-wrapper{position:relative;height:100%;background:#000}.owl-carousel .owl-video-play-icon{position:absolute;height:80px;width:80px;left:50%;top:50%;margin-left:-40px;margin-top:-40px;background:url(owl.video.play.png) no-repeat;cursor:pointer;z-index:1;-webkit-backface-visibility:hidden;transition:transform .1s ease}.owl-carousel .owl-video-play-icon:hover{-ms-transform:scale(1.3,1.3);transform:scale(1.3,1.3)}.owl-carousel .owl-video-playing .owl-video-play-icon,.owl-carousel .owl-video-playing .owl-video-tn{display:none}.owl-carousel .owl-video-tn{opacity:0;height:100%;background-position:center center;background-repeat:no-repeat;background-size:contain;transition:opacity .4s ease}.owl-carousel .owl-video-frame{position:relative;z-index:1;height:100%;width:100%}
+
+.owl-theme .owl-dots,.owl-theme .owl-nav{text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-nav{margin-top:10px}.owl-theme .owl-nav [class*=owl-]{color:#FFF;font-size:14px;margin:5px;padding:4px 7px;background:#D6D6D6;display:inline-block;cursor:pointer;border-radius:3px}.owl-theme .owl-nav [class*=owl-]:hover{background:#869791;color:#FFF;text-decoration:none}.owl-theme .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-nav.disabled+.owl-dots{margin-top:10px}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1}.owl-carousel button.owl-dot span{width:10px;height:10px;margin:5px 7px;background:#D6D6D6;display:block;-webkit-backface-visibility:visible;transition:opacity .2s ease;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#869791}
+
+*{margin: 0; padding: 0;font-family:'Arial'; font-style: normal;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;-moz-osx-font-smoothing:grayscale;}
+body { }
+.call_to_action a {font-size: 28px; line-height: 34px; font-weight: 400;text-decoration: none; background: rgba(235,176,0,1); color:#fff; border-radius: 100px; padding: 12px 25px; display: inline-block}
+.call_to_action a:hover {background:rgba(223,159,0,1)}
+.call_to_action a strong {font-weight: bolder;}
+.hide{opacity:0}.show{opacity:1!important}
+.sitecontainer header nav {height: 80px; box-shadow: rgb(255, 239, 95) 1px 1px 6px; position: fixed; width: 100%; background:#fff; z-index:9999}
+.sitecontainer header nav .custom_height {height: 80px; flex-direction: column; justify-content: center; align-items: center;  }
+.sitecontainer header nav .logo a {font-size: 30px; text-decoration: none; text-transform: uppercase; font-weight: bold;color:#000;}
+.sitecontainer header nav .logo a span {color:rgba(235,176,0,1)}
+.sitecontainer header nav .button_navigation {text-align: right;}
+.sitecontainer header .hero_section {padding-top:15rem; background-image: url("../img/bg.jpg"); background-size: cover; position: relative; overflow: hidden; padding-bottom: 5rem;}
+.sitecontainer header .hero_section .hero_section_background {background-color:rgba(122,114,97,0.7); width:100%; height:100%; position: absolute; top: 0;}
+.sitecontainer header .hero_section .herosection_content {position: relative; z-index: 2;}
+.sitecontainer header .hero_section .herosection_content .hero_section_call {position: relative; margin:1.5rem 0; text-align: center;}
+.sitecontainer header .hero_section .herosection_content .hero_section_call:before {width:155px; height: 130px; background-image: url("../img/guarantee-badge.png"); background-repeat: no-repeat; content: ''; display: inline-block; position: absolute; left: 12%; top: -1rem}
+.sitecontainer header .hero_section .herosection_content .hero_section_call .trust_badge {display: none;}
+.sitecontainer header .hero_section .call_to_action a { max-width: 300px; margin: 10px auto; display: block; padding: 15px 25px; text-align: center;}
+.sitecontainer header .hero_section .call_to_action h3 {margin-top:0.5rem; color:#fff; font-size: 22px;}
+.sitecontainer header .hero_section h1 { font-weight: 700; font-size: 48px; line-height: 58px; color: #fff; text-align: center}
+.sitecontainer header .hero_section h2 { font-weight: normal; font-size: 32px; line-height: 58px; color: #fff; text-align: center}
+.sitecontainer header .hero_icons {background:rgba(128,120,105,0.88); padding: 20px 0px;}
+.sitecontainer header .icon .icon_image {float: left; width: 25%; text-align: center;}
+.sitecontainer header .icon .icon_image img {max-width: 100%;}
+.sitecontainer header .icon .icon_title {color: rgb(255, 255, 255); float: left; width: 75%; padding-left:0.5rem }
+.sitecontainer header .icon .icon_title span {font-size: 20px; line-height: 26px;}
+.sitecontainer .section1 {background: rgba(246,246,246,1); padding: 3rem 0; text-align: center}
+.sitecontainer .section1 h1 {font-size: 36px; color: rgb(3, 22, 40);}
+.sitecontainer .section1 .work_section {margin-top: 3rem; position: relative}
+.sitecontainer .section1 .work_section:after {position: absolute; max-width:700px; top: 2rem; left: 0; right: 0; margin-right: auto; margin-left: auto; content:''; min-height: 1px; border-bottom: 2px dashed rgba(235,176,0,1);}
+.sitecontainer .section1 .work_section .work_highlight {position: relative; z-index: 9;}
+.sitecontainer .section1 .work_section .work_highlight .work_image {position: relative}
+.sitecontainer .section1 .work_section .work_highlight .work_image .work_image_holder {padding: 15px; background: rgba(255,255,255,1); border-style: solid; border-width: 1px; border-color: #031628; border-radius: 50%; width: 70px; height: 70px; margin: auto 0; display: inline-block}
+.sitecontainer .section1 .work_section .work_highlight .work_image span {display: block; background: rgba(235,176,0,1); border-radius: 50%; width: 40px; height: 40px; position: absolute;font-weight: 400; font-size: 26px; color: rgb(255, 255, 255); padding: 5px;right: 4em; top: 1.8em;}
+.sitecontainer .section1 .work_section .work_highlight .work_text {margin-top: 1.7rem;}
+.sitecontainer .section1 .work_section .work_highlight .work_text h3 {color: rgb(0, 0, 0); font-weight: normal; font-size: 22px;}
+.sitecontainer .section1 .work_section .work_highlight .work_text p {font-weight: normal; font-size: 16px; line-height: 20px; color: rgb(3, 22, 40);}
+.sitecontainer .section2 {padding: 3rem 0;}
+.sitecontainer .section2 .heading {text-align: center; margin-bottom: 2rem;}
+.sitecontainer .section2 .heading h1 {color: rgb(3, 22, 40); font-weight: bolder; font-style: inherit; font-size: 36px;}
+.sitecontainer .section2 .heading h2 {color: rgb(3, 22, 40); font-weight: normal; font-size: 28px;}
+.sitecontainer .section2 .list ul {padding:0; margin: 0; list-style: none;}
+.sitecontainer .section2 .list ul li { background:url("../img/protection-shield-with-a-check.png") no-repeat left; line-height:  26px; margin-bottom: 1em; font-size: 18px; color: rgb(3, 22, 40); padding-left: 2.5rem;}
+.sitecontainer .section3 {padding: 3rem 0; background-color: rgba(246,246,246,1); text-align: center;}
+.sitecontainer .section3 .heading {margin-bottom: 2.5rem;}
+.sitecontainer .section3 .heading h1 {color: rgb(3, 22, 40); font-weight: bolder; font-size: 36px;}
+.sitecontainer .section3 .feature .feature_image .feature_image_holder {padding: 15px; background: rgba(255,255,255,1); border-style: solid; border-width: 1px; border-color: #031628; border-radius: 50%; width: 70px; height: 70px; margin: auto 0; display: inline-block; margin-bottom: 1rem;}
+.sitecontainer .section3 .feature .feature_content p {font-weight: normal; font-size: 16px;line-height: 20px; color: rgb(0, 0, 0);}
+.sitecontainer .section3 .calltoactionsection {margin-top: 2rem;}
+.sitecontainer .section3 .calltoactionsection p {font-size: 20px; line-height: 31px}
+.sitecontainer .section3 .button_navigation a {max-width: 300px; margin:10px auto; display: block; padding: 15px 25px;}
+.sitecontainer .section4 {padding: 3rem 0; background-color:rgba(3,22,40,1); color:#fff;}
+.sitecontainer .section4 h1 {font-size: 48px; text-align: center;}
+.sitecontainer .section4 .testimonial_container .testimonial {max-width:425px; margin: 30px 10px; background: rgba(255,255,255,0.13); border: solid 1px #0d4376; border-radius: 3px; position: relative;}
+.sitecontainer .section4 .testimonial_container .testimonial .owner_image {position: relative;}
+.sitecontainer .section4 .testimonial_container .testimonial .owner_image img {position: absolute; width:65px; height: 65px; margin: auto; border-radius: 50%; border:3px solid #fff;top: -1rem;left:0; right: 0; margin: 0 auto;}
+.sitecontainer .section4 .testimonial_container .testimonial .testi {font-size: 16px; line-height: 1.22; text-align: center; color: #ffffff; letter-spacing: 1.1px; padding:60px 15px 5px 15px;}
+.sitecontainer .section4 .testimonial_container .testimonial-owner {position: relative; background: rgba(3,22,40,0.38); width: 100%; overflow: hidden; margin: 20px 0 0; padding: 10px 0 10px 41px; border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+.sitecontainer .section4 .testimonial_container .testimonial-owner .tname {width:100%; display: inline-block;font-weight: 400; font-style: italic; margin: 8px; letter-spacing: 1px; color:#fff;}
+.sitecontainer .section4 .testimonial_container .testimonial-owner .tname small {font-size:smaller; font-style: italic;}
+.sitecontainer .section4 .testimonial_container .testimonial-owner img.tstars {margin-left: 5px; width: auto!important}
+.sitecontainer .section4 .owl-dots {text-align: center;}
+.sitecontainer .section4 .button_navigation a {max-width: 300px; margin:10px auto; display: block; padding: 15px 25px;}
+.sitecontainer .section4  .section4_calltoaction p {font-size: 20px; line-height: 31px; color:#fff;}
+.sitecontainer .section4 .section4_calltoaction {text-align: center;}
+.sitecontainer .section5 {padding: 3rem 0; }
+.sitecontainer .section5 .heading {text-align: center; margin-bottom: 2rem;}
+.sitecontainer .section5 .heading h1 {line-height: 50px; font-weight: 700; font-style: normal; font-size: 48px;}
+.sitecontainer .section5 .faq_section {background-color: rgba(242,242,242,1); padding:1rem;}
+.sitecontainer .section5 .faq_section h3 {font-weight: bolder; font-size: 20px; color: rgb(0, 0, 0); margin-bottom: 10px}
+.sitecontainer .section5 .faq_section p {font-size: 18px; font-weight: lighter; line-height: 26px;}
+.sitecontainer footer {background-color:rgba(3,22,40,1); padding:3rem 0;}
+.sitecontainer .footer_logo a {font-size: 30px; text-decoration: none; text-transform: uppercase; font-weight: bold;color:#fff; margin-bottom: 1rem; display: block;}
+.sitecontainer .footer_logo a span {color:rgba(235,176,0,1)}
+.sitecontainer footer .footer_logo p {line-height: 22px; color:#fff;font-weight: normal; font-size: 16px;}
+.sitecontainer footer .footer_logo p span button {color:#fff; background:transparent; border:0;line-height: 22px; font-weight: normal; font-size: 16px; cursor: pointer}
+.sitecontainer footer .footer_logo .disclaimer p {font-size:11px; line-height: 1.3;}
+.sitecontainer footer .footer_calltoaction {text-align: center}
+.sitecontainer footer .footer_calltoaction .para1 {font-size: 28px; color: rgb(255, 255, 255); line-height: 31px;}
+.sitecontainer footer .footer_calltoaction .para2 {font-size: 20px; color: rgb(255, 255, 255); line-height: 31px;}
+.sitecontainer footer .footer_calltoaction .mobile_copyright p {line-height: 22px; color:#fff;font-weight: normal; font-size: 16px;}
+.sitecontainer footer .button_navigation a {max-width: 300px; margin:10px auto; display: block; padding: 15px 25px;}
+.calltoactionmobiledisplay {opacity: 0;}
+.calltoactionmobile { padding: 0; display: none; position: fixed; left: auto; top: auto; bottom: 0; width: 100%; z-index: 999; height: 56px; text-align: center;  background-color: rgba(235,176,0,1);}
+.calltoactionmobile .col-12,.calltoactionmobile .container { padding: 0!important;}
+.calltoactionmobile a {animation: grow-animation 2s linear infinite; display: inline-block; color: #fff; font-size: 20px; text-decoration: none; line-height: 31px; font-weight: 700; font-display: auto; padding-top: 15px;}
+.calltoactionmobile a:hover {text-decoration: none;}
+.modal{display:none;position:fixed;z-index:1;padding-top:100px;left:0;top:0;width:100%;height:100%;overflow:auto;background-color:#000;background-color:rgba(0,0,0,.4)}
+.modal .modal-content{position:relative;background-color:#fefefe;margin:auto;padding:0;border:1px solid #888;width:60%;box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);-webkit-animation-name:animatetop;-webkit-animation-duration:.4s;animation-name:animatetop;animation-duration:.4s}
+.modal .close{color:#000;float:right;font-size:28px;font-weight:700}
+.modal .close:focus,.modal .close:hover{color:#000;text-decoration:none;cursor:pointer}
+.modal .modal-header{padding:15px 16px;background-color:#f2f2f2;color:#000}
+.modal .modal-header h2 {text-align: center}
+.modal .modal-body{padding:2px 16px}
+.modal .modal-body .terms {padding:30px 15px; max-height: 600px; overflow-y: scroll}
+.modal .modal-body .terms p {font-size: 16px; line-height: 24px; font-weight: lighter}
+.modal .modal-body .terms p strong {margin: 0.5rem 0; display: inline-block}
+.modal .modal-footer{padding:2px 16px;background-color:#5cb85c;color:#fff}
+@keyframes grow-animation {
+	0% { transform: scale(1); }
+	50% {transform: scale(1.2); }
+	100% {transform: scale(1); }
+  }
+@-webkit-keyframes animatetop{
+	from{top:-300px;opacity:0}
+	to{top:0;opacity:1}
+}
+@keyframes animatetop{
+	from{top:-300px;opacity:0}
+	to{top:0;opacity:1}
+}
+
+@media (min-width: 300px) and (max-width:767.99px) {
+	.sitecontainer header nav {height: auto}
+	.sitecontainer header nav .custom_height {height: auto;}
+	.sitecontainer header nav .logo a {font-size: 25px; text-decoration: none; text-transform: uppercase; font-weight: bold;color:#000;}
+	.sitecontainer header nav .logo a span {color:rgba(235,176,0,1)}
+	.sitecontainer {overflow: hidden}
+	.sitecontainer header nav .logo {text-align: center; padding:1rem;}
+	.sitecontainer header .hero_section {padding: 6rem 0 3rem 0; background-position: center;}
+	.sitecontainer header .hero_section .herosection_content .hero_section_call:before  {content: none;}
+	.sitecontainer header .hero_section .herosection_content .hero_section_call .trust_badge {display: block}
+	.sitecontainer header .hero_section h1, .sitecontainer .section1 h1, .sitecontainer .section2 .heading h1, .sitecontainer .section3 .heading h1, .sitecontainer .section4 h1,.sitecontainer .section5 .heading h1 {font-size: 32px; line-height: 36px}
+	.sitecontainer header .hero_section h2 {font-size: 24px;}
+	.sitecontainer header .icon .icon_title span {font-size: 16px}	
+	.sitecontainer .section1 .work_section {overflow: hidden}
+	.sitecontainer .section1 .work_section:after {min-width: 2px; max-height: 400px; transform: rotate(90deg); top:15rem;}
+	.sitecontainer .section1 .work_section .work_highlight {margin-bottom: 4rem; }
+	.sitecontainer .section1 .work_section .work_highlight .work_image .work_image_holder {position: relative;}
+	.sitecontainer .section1 .work_section .work_highlight .work_image span {width: 30px; height: 30px; font-size: 18px; right: -1rem;}
+	.sitecontainer .section1 .work_section .work_highlight .work_text {background-color:rgba(246,246,246,1);margin-top: 0;}
+	.sitecontainer .section2 .list ul {-moz-column-count: 2; -moz-column-gap: 20px; -webkit-column-count: 2; -webkit-column-gap: 20px; column-count: 2; column-gap: 20px;}
+	.sitecontainer .section2 .heading h2 {font-size: 21px;}
+	.sitecontainer .section2 .list ul li {line-height: 21px; margin-bottom: 1.2rem; font-size: 16px;}
+	.sitecontainer .section3 .feature {margin-bottom: 1.4rem;}
+	.sitecontainer .section4 .testimonial_container .testimonial {max-width: 450px;  margin-bottom: 30px;}
+	.sitecontainer .section5 .faq_section {margin-bottom: 1.5rem;}
+	.sitecontainer footer {padding:5rem 0;}
+	.sitecontainer footer .footer_logo {text-align: center; margin-bottom: 1rem;}
+	.sitecontainer .footer_logo a { font-size: 25px; text-decoration: none; text-transform: uppercase; font-weight: bold;color:#fff; margin-bottom: 1rem; display: block;}
+	.sitecontainer .footer_logo a span {color:rgba(235,176,0,1)}
+	.sitecontainer footer .footer_logo p span button {display: none}
+}
+
+@media (max-width:326px) {
+	.sitecontainer header nav .logo a {font-size:24px!important;}
+	.sitecontainer header .hero_section h1, .sitecontainer .section1 h1, .sitecontainer .section2 .heading h1, .sitecontainer .section3 .heading h1, .sitecontainer .section4 h1, .sitecontainer .section5 .heading h1 {font-size:21px!important;}
+	.sitecontainer .section4 .testimonial_container .testimonial {padding:10px 15px!important; max-width: 300px!important; margin: 20px 0!important;}
+	.sitecontainer .section4 .testimonial_container .testimonial-owner {padding:10px !important;}
+	.sitecontainer header .hero_section .herosection_content .hero_section_call .trust_badge {display: none!important;}
+}
+@media (max-width: 416px) {
+	.sitecontainer header nav {height: auto}
+	.sitecontainer header nav .custom_height {height: auto;}
+	.sitecontainer header nav .logo a {font-size: 25px; text-decoration: none; text-transform: uppercase; font-weight: bold;color:#000;}
+	.sitecontainer header nav .logo a span {color:rgba(235,176,0,1)}
+	.call_to_action a {font-size: 21px;}
+	.sitecontainer header .hero_section {padding: 9rem 0 6rem 0;}
+	.sitecontainer header .hero_section h1, .sitecontainer .section1 h1, .sitecontainer .section2 .heading h1, .sitecontainer .section3 .heading h1, .sitecontainer .section4 h1, .sitecontainer .section5 .heading h1 {font-size: 30px;}
+	.sitecontainer header .hero_section h1 {font-size: 36px; line-height: 1.3;}
+	.sitecontainer header .hero_section .herosection_content .hero_section_call .trust_badge {display: none!important;}
+	.sitecontainer header .hero_section h2 {font-size: 24px}
+	.sitecontainer header .icon .icon_title span {font-size: 15px}
+	.sitecontainer .section1 .work_section:after {top:25rem}
+	.sitecontainer .section4 .button_navigation a {max-width: 300px!important; padding: 15px 10px; font-size: 22px;}
+	.sitecontainer .section4 .testimonial_container .testimonial {max-width: 300px; margin: 30px 20px;}
+	.sitecontainer .section4 .testimonial_container .testimonial .owner_image {padding: 15px 0 0 0; text-align: center; display: inline-block; width: 100%;}
+	.sitecontainer .section4 .testimonial_container .testimonial .owner_image img {position: relative; top: auto; left: auto; margin: auto}
+	.sitecontainer .section4 .testimonial_container .testimonial .testi {padding: 15px 10px 5px 15px}
+	.sitecontainer footer .footer_calltoaction .para1, .sitecontainer footer .footer_calltoaction .para2 {font-size: 21px;}
+	.sitecontainer .footer_logo a {font-size: 25px; text-decoration: none; text-transform: uppercase; font-weight: bold;color:#fff; margin-bottom: 1rem; display: block;}
+	.sitecontainer .footer_logo a span {color:rgba(235,176,0,1)}
+	.sitecontainer footer .button_navigation a { max-width: 280px; margin: 10px auto; display: block; padding: 14px 25px;}
+}
+@media (min-width: 768px) {
+	.sitecontainer header nav .logo a {font-size: 26px}
+	.sitecontainer header .hero_section .herosection_content .hero_section_call:before {left: 0%;}
+	.sitecontainer .section1 .work_section .work_highlight .work_image span {right: 4rem;}
+	.sitecontainer .section4 .testimonial_container .testimonial {max-width: 510px; margin:100px; margin-bottom: 30px;}
+	.sitecontainer footer .footer_logo {text-align: center; margin-bottom: 1rem;}
+}
+@media (min-width: 992px) {
+	.sitecontainer header nav .logo a {font-size: 30px}
+	.sitecontainer header .hero_section .herosection_content .hero_section_call:before {left: 12%;}
+	.sitecontainer .section1 .work_section .work_highlight .work_image span {right: 6rem;}
+	.sitecontainer .section4 .testimonial_container .testimonial {max-width:425px; margin: 30px 10px; background: rgba(255,255,255,0.13); border: solid 1px #0d4376; border-radius: 3px; position: relative;}
+	.sitecontainer footer .footer_logo {text-align: left;}
+	.container { max-width: 920px;}
+}
+@media (min-width: 1200px) {
+	.sitecontainer header .hero_section .herosection_content .hero_section_call:before {left: 12%;}
+	.sitecontainer .section4 .testimonial_container .testimonial {width:425px; margin: 30px; background: rgba(255,255,255,0.13); border: solid 1px #0d4376; border-radius: 3px; position: relative;}
+	.container { max-width: 1020px;}
+}
