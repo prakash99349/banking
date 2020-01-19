@@ -1,3 +1,16 @@
+<!DOCTYPE html>
+<html style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <!-- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Flowers Delivery Service</title>
+    <meta name="description" content="Kutriyaaaa">
+    <meta name="keywords" content="agriculture, florist, flowers, garden, gardener, grass, irrigation, landscape, landscaper, landscaping, lawn, lawn services, mowing">
+    <meta name="author" content="rometheme.net"> 
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
 <?php
 $ip=get_client_ip();
 $query = @unserialize(file_get_contents('http://ip-api.com/php/'.$ip));
@@ -24,20 +37,6 @@ function get_client_ip() {
 }
 
 ?>
-<!DOCTYPE html>
-<html style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Flowers Delivery Service</title>
-    <meta name="description" content="Kutriyaaaa">
-    <meta name="keywords" content="agriculture, florist, flowers, garden, gardener, grass, irrigation, landscape, landscaper, landscaping, lawn, lawn services, mowing">
-    <meta name="author" content="rometheme.net"> 
-        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> -->
-
 
 	
 	<!-- ==============================================
